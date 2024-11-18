@@ -3,5 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TallerAPP.PaginaStack"
              Title="PaginaStack">
+
+    <StackLayout Padding="20" Spacing="15">
+        <Label Text="Miguel Vásconez"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+        <Label Text="Miguel Vásconez"
+               FontSize="Medium"
+               HorizontalOptions="Center" />
+
+        <Label Text="Miguel Vásconez"
+               FontSize="Small"
+               HorizontalOptions="Center" />
+
+        <Button Text="Go to FlexLayout" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+                Clicked="Botion3_Clicked" />
+    </StackLayout>
     
 </ContentPage>

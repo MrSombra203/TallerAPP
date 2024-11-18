@@ -7,19 +7,7 @@ public partial class PaginaGrid : ContentPage
 		InitializeComponent();
 	}
 
-    private void Botion1_Clicked2(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new PaginaStack());
-    }
-    private void Botion1_Clicked3(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new PaginaStack());
-    }
-    private void Botion1_Clicked4(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new PaginaStack());
-    }
-    private void Botion1_Clicked5(object sender, EventArgs e)
+    private void Botion2_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new PaginaStack());
     }
