@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TallerAPP.PaginaGrid"
+             Title="PaginaGrid">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300" />
+            <RowDefinition />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <BoxView Color="Yellow" />
+        <Button
+            x:Name="Boton2"
+            Text="VAmos!"
+            Clicked="Botion1_Clicked2" />
+        <BoxView Grid.Column="1"
+                 Color="Brown" />
+        <Button
+            x:Name="Boton3"
+            Text="Vamos!"
+            Clicked="Botion1_Clicked3" />
+        <BoxView Grid.Row="1"
+                 Color="Orange" />
+        <Button
+            x:Name="Boton4"
+            Text="Vamos!"
+            Clicked="Botion1_Clicked4" />
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="Red" />
+        <Button
+             x:Name="Boton5"
+             Text="Vamos!"
+             Clicked="Botion1_Clicked5" />
+        
+    </Grid>
+</ContentPage>
