@@ -6,4 +6,9 @@ public partial class PaginaFlex : ContentPage
     {
         InitializeComponent();
     }
+
+    private void Imagen_Click(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new PaginaAbsolut());
+    }
 }

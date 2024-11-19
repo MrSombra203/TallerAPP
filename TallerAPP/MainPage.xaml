@@ -14,7 +14,7 @@
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
-                Text="Hello, World!"
+                Text="Hola, mundo!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -32,7 +32,7 @@
                 HorizontalOptions="Fill" />
             
             <Button
-                x:Name="Vamos"
+                x:Name="Boton1"
                 Text="Ir a PaginaGrid"
                 Clicked="Botion1_Clicked" />
         </VerticalStackLayout>

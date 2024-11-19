@@ -3,6 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TallerAPP.PaginaFlex"
              Title="PaginaFlex">
-
     
+    <FlexLayout Direction="Column"
+            AlignItems="Start"
+            JustifyContent="Start"
+            Padding="20">
+
+        <StackLayout Orientation="Horizontal" Margin="0,10">
+            <Image Source="https://www.boredpanda.es/blog/wp-content/uploads/2021/12/15-9-61ae231142bd7__700-61af71ac57231__700.jpg"
+               HeightRequest="200"
+               WidthRequest="200">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Imagen_Click" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Meme 1" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" Margin="0,10">
+            <Image Source="https://i.redd.it/oqt9l599zwl81.jpg"
+               HeightRequest="200"
+               WidthRequest="200">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Imagen_Click" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Meme 2" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
+        </StackLayout>
+
+    </FlexLayout>
+
 </ContentPage>
