@@ -6,4 +6,9 @@ public partial class PaginaAbsolut : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Botion4_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new PaginaGrid());
+    }
 }

@@ -3,5 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TallerAPP.PaginaAbsolut"
              Title="PaginaAbsolut">
-    
+    <AbsoluteLayout>
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="10">
+                <Label Text="Hola a todos." FontSize="20" />
+                <Label Text="Solo se escribe cosas alatorias." FontSize="20" />
+                <Label Text="No hay nada aqui." FontSize="20" />
+                <Label Text="Estoy aburriodo" FontSize="20" />
+                <Label Text="Solo es un trabajo" FontSize="20" />
+                <Label Text="Tengo frio" FontSize="20" />
+                <Label Text="Y tampoco hay luz" FontSize="20" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Button Text="Ir a Grid"
+                AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Clicked="Botion4_Clicked" />
+    </AbsoluteLayout>
+
 </ContentPage>
