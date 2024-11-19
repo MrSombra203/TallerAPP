@@ -22,7 +22,7 @@
         <BoxView Grid.Row="1" Grid.Column="0" Color="Green" />
 
         <Grid Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow">
-            <Button Text="Go to StackLayout" 
+            <Button Text="Vamos A la pagina Flex!" 
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"
                     Clicked="Botion2_Clicked" />

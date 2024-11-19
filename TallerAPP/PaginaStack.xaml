@@ -17,7 +17,8 @@
                FontSize="Small"
                HorizontalOptions="Center" />
 
-        <Button Text="Go to FlexLayout" 
+        <Button x:Name="Boton3"
+                Text="Vamos al Flex!" 
                 HorizontalOptions="Center" 
                 VerticalOptions="Center"
                 Clicked="Botion3_Clicked" />
